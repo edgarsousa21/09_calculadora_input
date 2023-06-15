@@ -7,8 +7,12 @@ function calcular() {
     let n1 = Number(tn1.value)
     let n2 = Number(tn2.value)
 
-    changeOperation(opr)
-    calculatorNumb(n1, n2, opr)
+    if (tn1.value && tn2.value) {
+        changeOperation(opr)
+        calculatorNumb(n1, n2, opr)
+    } else {
+        alert("Por Favor, Digite os dois valores nos campos!")
+    }
 
 }
 function changeOperation(opr) {
