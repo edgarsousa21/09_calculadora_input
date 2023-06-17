@@ -1,5 +1,5 @@
 <h1>calculadora Input</h1>
-Calculadora de operações básicas (+, -, *, /, %, **)
+<p>Calculadora de operações básicas (+, -, *, /, %, **)</p>
 <p>Soma ( + )</p>
 <p>Subtração ( - )</p>
 <p>Multiplicação ( * )</p>
